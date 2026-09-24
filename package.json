@@ -1,20 +1,32 @@
 {
   "name": "@pipeworx/mcp-elexon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Elexon BMRS Insights MCP — Great Britain electricity grid & market data.",
   "type": "module",
   "main": "src/index.ts",
   "types": "src/index.ts",
+  "bin": {
+    "mcp-elexon": "bin/cli.js"
+  },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "elexon"],
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/pipeworx-io/mcp-elexon"
+    "url": "git+https://github.com/pipeworx-io/mcp-elexon.git"
   },
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "tsx": "^4.19.0"
+  },
   "devDependencies": {
-    "typescript": "^5.7.0"
+    "typescript": "^5.9.3",
+    "@cloudflare/workers-types": "^4.20260405.1"
+  },
+  "pipeworx": {
+    "sourceHash": "v1-dd55b683b44b7dcd99f529370825f621c3bac26e1b05821f26eba63b458928d3",
+    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
   }
 }
