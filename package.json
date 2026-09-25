@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-elexon",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Elexon BMRS Insights MCP — Great Britain electricity grid & market data.",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-dd55b683b44b7dcd99f529370825f621c3bac26e1b05821f26eba63b458928d3",
-    "sourceCommit": "76aa8f5d9b5dc2f665563030647c68e661478864"
+    "sourceHash": "v1-47806f1e22b75960a75683468549d46cc2c39368476bd2971a7bbdec8e269bab",
+    "sourceCommit": "4fa4c64448be06f4a2ee4cee19f756f3558a7cad"
   }
 }

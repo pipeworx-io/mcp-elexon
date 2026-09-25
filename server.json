@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/elexon",
   "title": "Elexon",
   "description": "Elexon BMRS Insights MCP — Great Britain electricity grid & market data.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "websiteUrl": "https://pipeworx.io/packs/elexon",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-elexon",
